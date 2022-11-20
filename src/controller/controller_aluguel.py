@@ -69,7 +69,7 @@ class Controller_Aluguel:
 
             proximo_aluguel = int(list(proximo_aluguel)[0]['proximo_aluguel'])
             # Cria um dicionário para mapear as variáveis de entrada e saída
-            data = dict(codigo_aluguel=proximo_aluguel, data_aluguel_inicial=data_hoje, data_aluguel_finial=data_amanha, cpf=cliente.get_CPF(), cnpj=montadora.get_CNPJ())
+            data = dict(codigo_aluguel=proximo_aluguel, data_aluguel_inicial=data_hoje, data_aluguel_final=data_amanha, cpf=cliente.get_CPF(), cnpj=montadora.get_CNPJ())
             # Insere e Recupera o código do novo aluguel
             id_aluguel = self.mongo.db["alugueis"].insert_one(data)
             # Recupera os dados do novo veiculo criado transformando em um DataFrame
