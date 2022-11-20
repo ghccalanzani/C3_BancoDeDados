@@ -1,4 +1,4 @@
-# Trabalho_C3_Sistema_Alugueis
+# C3_BancoDeDados
  Trabalho C3 de Banco de Dados - Sistema de Aluguel de Veículos
  
 Vídeo demonstrativo das funções do projeto:
