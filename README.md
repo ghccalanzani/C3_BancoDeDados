@@ -3,7 +3,7 @@
  
 Vídeo demonstrativo das funções do projeto:
 
-Link: (Pendente)
+Link: https://youtu.be/e0WVp3DpTc8
 
 
 O sistema é uma continuação do trabalho C2, portanto exige que as tabelas existam no banco Oracle. 
