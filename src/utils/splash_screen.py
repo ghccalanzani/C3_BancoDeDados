@@ -20,9 +20,9 @@ class SplashScreen:
         #                   SISTEMA DE ALUGUEIS                     
         #                                                         
         #  TOTAL DE REGISTROS:                                    
-        #      1 - VEICULOS:         {str(self.get_documents_count(collection_name="veiculos")).rjust(5)}
-        #      2 - CLIENTES:         {str(self.get_documents_count(collection_name="clientes")).rjust(5)}
-        #      3 - MONTADORAS:     {str(self.get_documents_count(collection_name="montadoras")).rjust(5)}
+        #      1 - VEICULOS:          {str(self.get_documents_count(collection_name="veiculos")).rjust(5)}
+        #      2 - CLIENTES:          {str(self.get_documents_count(collection_name="clientes")).rjust(5)}
+        #      3 - MONTADORAS:        {str(self.get_documents_count(collection_name="montadoras")).rjust(5)}
         #      4 - ALUGUEIS:          {str(self.get_documents_count(collection_name="alugueis")).rjust(5)}
         #      5 - ITENS DE ALUGUEIS: {str(self.get_documents_count(collection_name="itens_aluguel")).rjust(5)}
         #
